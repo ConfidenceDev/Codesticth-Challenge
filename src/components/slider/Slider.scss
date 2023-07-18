@@ -26,6 +26,7 @@
 
 .slide img {
   height: 100%;
+  object-fit: cover;
 }
 
 .content {
@@ -81,12 +82,13 @@
   opacity: 1;
 }
 .arrow {
-  border: 2px solid orangered;
+  border: 2px solid var(--accent-color);
   border-radius: 50%;
+  padding: 8px;
   background: transparent;
   color: #fff;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 4.5rem;
+  height: 4.5rem;
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -99,12 +101,12 @@
 }
 
 .next {
-  right: 1.5rem;
-  color: orangered;
+  right: 2rem;
+  color: var(--accent-color);
 }
 .prev {
-  left: 1.5rem;
-  color: orangered;
+  left: 2rem;
+  color: var(--accent-color);
 }
 
 hr {

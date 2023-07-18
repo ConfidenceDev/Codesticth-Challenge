@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import styles from "./CheckoutForm.module.scss";
 import Card from "../card/Card";
 import CheckoutSummary from "../checkoutSummary/CheckoutSummary";
-import spinnerImg from "../../assets/spinner.jpg";
 import { toast } from "react-toastify";
 import { useDispatch, useSelector } from "react-redux";
 import { selectEmail, selectUserID } from "../../redux/slice/authSlice";
@@ -13,7 +12,6 @@ import {
 } from "../../redux/slice/cartSlice";
 import { selectShippingAddress } from "../../redux/slice/checkoutSlice";
 import { useNavigate } from "react-router-dom";
-import Orders from "../../db/Orders.json";
 
 const CheckoutForm = () => {
   const [message, setMessage] = useState(null);
@@ -45,12 +43,7 @@ const CheckoutForm = () => {
       createdAt: Date.now(),
     };
     try {
-      //addDoc(collection(db, "orders"), orderConfig);
-      // console.log("CheckOut");
-      // console.log(cartItems);
       const url = "http://localhost:3001/orders";
-
-      // POST request options
       const options = {
         method: "POST",
         headers: {
@@ -59,7 +52,6 @@ const CheckoutForm = () => {
         body: JSON.stringify(orderConfig),
       };
 
-      // Make the POST request using fetch()
       fetch(url, options)
         .then((response) => {
           if (!response.ok) {

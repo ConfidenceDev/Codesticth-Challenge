@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <ToastContainer />
+        <ToastContainer className="--toast" />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

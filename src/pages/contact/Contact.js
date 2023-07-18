@@ -3,7 +3,6 @@ import Card from "../../components/card/Card";
 import styles from "./Contact.module.scss";
 import { FaPhoneAlt, FaEnvelope, FaTwitter } from "react-icons/fa";
 import { GoLocation } from "react-icons/go";
-// import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 
 const Contact = () => {
@@ -12,22 +11,6 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     console.log(form.current);
-
-    /*emailjs
-      .sendForm(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        "template_7xyhwen",
-        form.current,
-        "user_hKs2aRfLoozcqA28UpUyz"
-      )
-      .then(
-        (result) => {
-          toast.success("Message sent successfully");
-        },
-        (error) => {
-          toast.error(error.text);
-        }
-      );*/
     toast.success("Message sent successfully");
     e.target.reset();
   };
@@ -73,19 +56,19 @@ const Contact = () => {
               <div className={styles.icons}>
                 <span>
                   <FaPhoneAlt />
-                  <p>+234 705 141 6545</p>
+                  <p>+234 802 265 6111</p>
                 </span>
                 <span>
                   <FaEnvelope />
-                  <p>Support@eshop.com</p>
+                  <p>confidostic3@gmail.com</p>
                 </span>
                 <span>
                   <GoLocation />
-                  <p>Abuja, Nigeria</p>
+                  <p>Rivers, Nigeria</p>
                 </span>
                 <span>
                   <FaTwitter />
-                  <p>@ZinoTrust</p>
+                  <p>@ConfidenceDev</p>
                 </span>
               </div>
             </Card>

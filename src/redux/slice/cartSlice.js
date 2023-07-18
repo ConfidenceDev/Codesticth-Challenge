@@ -15,7 +15,6 @@ const cartSlice = createSlice({
   initialState,
   reducers: {
     ADD_TO_CART(state, action) {
-      //   console.log(action.payload);
       const productIndex = state.cartItems.findIndex(
         (item) => item.id === action.payload.id
       );
@@ -36,7 +35,7 @@ const cartSlice = createSlice({
           position: "top-left",
         });
       }
-      // save cart to LS
+      // save cart to Local Storage
       localStorage.setItem("cartItems", JSON.stringify(state.cartItems));
     },
     DECREASE_CART(state, action) {

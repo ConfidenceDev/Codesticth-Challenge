@@ -1,1 +1,163 @@
-[{"id":1,"userID":"Q2UlqKd1k4WWa4wm0uV2wdOoXMt2","userEmail":"confidostic3@gmail.com","orderDate":"Tue Jul 18 2023","orderTime":"3:37:35 PM","orderAmount":66.98,"orderStatus":"Order Placed...","cartItems":[{"id":3,"title":"Mens Cotton Jacket","price":55.99,"description":"great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.","category":"men's clothing","image":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg","rating":{"rate":4.7,"count":500},"cartQuantity":1},{"id":8,"title":"Pierced Owl Rose Gold Plated Stainless Steel Double","price":10.99,"description":"Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel","category":"jewelery","image":"https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg","rating":{"rate":1.9,"count":100},"cartQuantity":1}],"shippingAddress":{"name":"Confidence Eze","line1":"Mini Apu, Rukpokwu","line2":"","city":"Port Harcourt","state":"Rivers State","postal_code":"500281","country":"NG","phone":"+2348022656777"},"createdAt":1689691055003},{"id":2,"userID":"Q2UlqKd1k4WWa4wm0uV2wdOoXMt2","userEmail":"confidostic3@gmail.com","orderDate":"Tue Jul 18 2023","orderTime":"3:42:30 PM","orderAmount":64,"orderStatus":"Order Placed...","cartItems":[{"id":9,"title":"WD 2TB Elements Portable External Hard Drive - USB 3.0 ","price":64,"description":"USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system","category":"electronics","image":"https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg","rating":{"rate":3.3,"count":203},"cartQuantity":1}],"shippingAddress":{"name":"Confidence Eze","line1":"Mini Apu, Rukpokwu","line2":"","city":"Port Harcourt","state":"Rivers State","postal_code":"500281","country":"NG","phone":"+2348022656777"},"createdAt":1689691350274},{"id":3,"userID":"UXdd8Ivt5KN9flU7YiR56enMmbt1","userEmail":"confidostic5@gmail.com","orderDate":"Tue Jul 18 2023","orderTime":"3:50:48 PM","orderAmount":109.95,"orderStatus":"Order Placed...","cartItems":[{"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg","rating":{"rate":3.9,"count":120},"cartQuantity":1}],"shippingAddress":{"name":"Confidence Eze","line1":"Mini Apu, Rukpokwu","line2":"","city":"Port Harcourt","state":"Rivers State","postal_code":"500281","country":"NG","phone":"+2348022656777"},"createdAt":1689691848939},{"id":4,"userID":"Q2UlqKd1k4WWa4wm0uV2wdOoXMt2","userEmail":"confidostic3@gmail.com","orderDate":"Tue Jul 18 2023","orderTime":"3:57:24 PM","orderAmount":109.95,"orderStatus":"Order Placed...","cartItems":[{"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg","rating":{"rate":3.9,"count":120},"cartQuantity":1}],"shippingAddress":{"name":"Confidence Eze","line1":"Mini Apu, Rukpokwu","line2":"","city":"Port Harcourt","state":"Rivers State","postal_code":"500281","country":"NG","phone":"+2348022656777"},"createdAt":1689692244426}]
+[
+  {
+    "id": 1,
+    "userID": "Q2UlqKd1k4WWa4wm0uV2wdOoXMt2",
+    "userEmail": "confidostic3@gmail.com",
+    "orderDate": "Tue Jul 18 2023",
+    "orderTime": "3:37:35 PM",
+    "orderAmount": 66.98,
+    "orderStatus": "Order Placed...",
+    "cartItems": [
+      {
+        "id": 3,
+        "title": "Mens Cotton Jacket",
+        "price": 55.99,
+        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "rating": { "rate": 4.7, "count": 500 },
+        "cartQuantity": 1
+      },
+      {
+        "id": 8,
+        "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+        "price": 10.99,
+        "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "rating": { "rate": 1.9, "count": 100 },
+        "cartQuantity": 1
+      }
+    ],
+    "shippingAddress": {
+      "name": "Confidence Eze",
+      "line1": "Mini Apu, Rukpokwu",
+      "line2": "",
+      "city": "Port Harcourt",
+      "state": "Rivers State",
+      "postal_code": "500281",
+      "country": "NG",
+      "phone": "+2348022656777"
+    },
+    "createdAt": 1689691055003
+  },
+  {
+    "id": 2,
+    "userID": "Q2UlqKd1k4WWa4wm0uV2wdOoXMt2",
+    "userEmail": "confidostic3@gmail.com",
+    "orderDate": "Tue Jul 18 2023",
+    "orderTime": "3:42:30 PM",
+    "orderAmount": 64,
+    "orderStatus": "Order Placed...",
+    "cartItems": [
+      {
+        "id": 9,
+        "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+        "price": 64,
+        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "rating": { "rate": 3.3, "count": 203 },
+        "cartQuantity": 1
+      }
+    ],
+    "shippingAddress": {
+      "name": "Confidence Eze",
+      "line1": "Mini Apu, Rukpokwu",
+      "line2": "",
+      "city": "Port Harcourt",
+      "state": "Rivers State",
+      "postal_code": "500281",
+      "country": "NG",
+      "phone": "+2348022656777"
+    },
+    "createdAt": 1689691350274
+  },
+  {
+    "id": 3,
+    "userID": "UXdd8Ivt5KN9flU7YiR56enMmbt1",
+    "userEmail": "confidostic5@gmail.com",
+    "orderDate": "Tue Jul 18 2023",
+    "orderTime": "3:50:48 PM",
+    "orderAmount": 109.95,
+    "orderStatus": "Order Placed...",
+    "cartItems": [
+      {
+        "id": 1,
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "rating": { "rate": 3.9, "count": 120 },
+        "cartQuantity": 1
+      }
+    ],
+    "shippingAddress": {
+      "name": "Confidence Eze",
+      "line1": "Mini Apu, Rukpokwu",
+      "line2": "",
+      "city": "Port Harcourt",
+      "state": "Rivers State",
+      "postal_code": "500281",
+      "country": "NG",
+      "phone": "+2348022656777"
+    },
+    "createdAt": 1689691848939
+  },
+  {
+    "id": 4,
+    "userID": "Q2UlqKd1k4WWa4wm0uV2wdOoXMt2",
+    "userEmail": "confidostic3@gmail.com",
+    "orderDate": "Tue Jul 18 2023",
+    "orderTime": "3:57:24 PM",
+    "orderAmount": 109.95,
+    "orderStatus": "Order Placed...",
+    "cartItems": [
+      {
+        "id": 1,
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "rating": { "rate": 3.9, "count": 120 },
+        "cartQuantity": 1
+      }
+    ],
+    "shippingAddress": {
+      "name": "Confidence Eze",
+      "line1": "Mini Apu, Rukpokwu",
+      "line2": "",
+      "city": "Port Harcourt",
+      "state": "Rivers State",
+      "postal_code": "500281",
+      "country": "NG",
+      "phone": "+2348022656777"
+    },
+    "createdAt": 1689692244426
+  },
+  {
+    "id": 5,
+    "userID": "Q2UlqKd1k4WWa4wm0uV2wdOoXMt2",
+    "userEmail": "confidostic3@gmail.com",
+    "orderDate": "Wed Jul 19 2023",
+    "orderTime": "12:04:40 AM",
+    "orderAmount": 55.99,
+    "orderStatus": "Order Placed...",
+    "cartItems": [
+      {
+        "id": 3,
+        "title": "Mens Cotton Jacket",
+        "price": 55.99,
+        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+        "category": "Men's Clothing",
+        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "rating": { "rate": 4.7, "count": 500 },
+        "cartQuantity": 1
+      }
+    ],
+    "shippingAddress": {},
+    "createdAt": 1689721480593
+  }
+]

@@ -1,22 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 :root {
-  --font-family: "Poppins", sans-serif;
-  --dark-blue: #0a1930;
-  --light-blue: #1f93ff;
+  --font-family: "Ubuntu", sans-serif;
+  --dark-blue: #262938;
+  --light-blue: #3e6981;
 
   --color-white: #fff;
-  --color-dark: #333;
+  --color-dark: #1b1b1b;
 
   --color-grey: #eee;
   --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 
   --color-purple: #9d0191;
-  --color-orange: #ff7722;
+  --color-orange: #6b394c;
 
-  --color-primary: #007bff;
-  --color-success: #28a745;
-  --color-danger: orangered;
+  --color-primary: #4070f4;
+  --color-success: #357a45;
+  --color-danger: #df427e;
+  --accent-color: #df427e;
 }
 
 * {
@@ -40,7 +41,7 @@ section {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1050px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -129,7 +130,8 @@ h1 {
   font-size: 4rem;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  margin-top: 8px;
 }
 h3 {
   font-size: 2.5rem;
@@ -180,13 +182,13 @@ p {
 }
 
 .--color-primary {
-  color: #007bff;
+  color: var(--color-primary);
 }
 .--color-danger {
-  color: orangered;
+  color: var(--accent-color);
 }
 .--color-success {
-  color: #28a745;
+  color: var(--color-success);
 }
 
 .--color-white {
@@ -283,10 +285,12 @@ p {
   justify-content: center;
   align-items: center;
   transition: all 0.3s;
+  color: var(--light-blue);
+  font-family: var(--font-family);
 }
 
 .--btn:hover {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
 }
 
 .--btn-lg {
@@ -299,7 +303,7 @@ p {
 
 .--btn-primary {
   color: #fff;
-  background: #007bff;
+  background: var(--light-blue);
 }
 .--btn-secondary {
   color: #fff;
@@ -308,7 +312,7 @@ p {
 }
 .--btn-danger {
   color: #fff;
-  background: orangered;
+  background: var(--accent-color);
 }
 
 .--btn-success {
@@ -333,6 +337,19 @@ p {
   background: var(--color-grey);
 }
 
+.--cs {
+  color: white;
+}
+
+.--toast {
+  font-size: 1.2rem;
+}
+
+.--b {
+  font-weight: bold;
+  margin-left: 8px;
+}
+
 .--form-control {
   font-size: 1.6rem;
   font-weight: 300;
@@ -343,6 +360,7 @@ p {
 }
 
 .--form-control input {
+  font-family: var(--font-family);
   font-size: 1.6rem;
   font-weight: 300;
   padding: 8px 1rem;

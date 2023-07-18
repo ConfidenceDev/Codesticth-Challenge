@@ -6,7 +6,6 @@ import "./Slider.scss";
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slideLength = sliderData.length;
-  //   console.log(slideLength);
 
   const autoScroll = true;
   let slideInterval;
@@ -23,10 +22,6 @@ const Slider = () => {
   useEffect(() => {
     setCurrentSlide(0);
   }, []);
-
-  //   const auto = () => {
-  //     slideInterval = setInterval(nextSlide, intervalTime);
-  //   };
 
   useEffect(() => {
     if (autoScroll) {

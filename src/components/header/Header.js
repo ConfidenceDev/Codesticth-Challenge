@@ -22,7 +22,7 @@ const logo = (
   <div className={styles.logo}>
     <Link to="/">
       <h2>
-        e<span>Shop</span>.
+        Codesticth<span>Shop</span>
       </h2>
     </Link>
   </div>
@@ -53,11 +53,9 @@ const Header = () => {
   };
   window.addEventListener("scroll", fixNavbar);
 
-  // Monitor currently sign in user
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
       if (user) {
-        // console.log(user);
         if (user.displayName == null) {
           const u1 = user.email.slice(0, -10);
           const uName = u1.charAt(0).toUpperCase() + u1.slice(1);
@@ -91,7 +89,7 @@ const Header = () => {
   const logoutUser = () => {
     signOut(auth)
       .then(() => {
-        toast.success("Logout successfully.");
+        toast.success("Logout successfully!");
         navigate("/");
       })
       .catch((error) => {
@@ -99,11 +97,14 @@ const Header = () => {
       });
   };
 
+  const cartIconStyle = {
+    marginLeft: "4px",
+  };
   const cart = (
     <span className={styles.cart}>
       <Link to="/cart">
         Cart
-        <FaShoppingCart size={20} />
+        <FaShoppingCart style={cartIconStyle} size={15} />
         <p>{cartTotalQuantity}</p>
       </Link>
     </span>
@@ -168,7 +169,7 @@ const Header = () => {
           </nav>
 
           <div className={styles["menu-icon"]}>
-            {cart}
+            {/* {cart} */}
             <HiOutlineMenuAlt3 size={28} onClick={toggleMenu} />
           </div>
         </div>

@@ -28,7 +28,7 @@ const Register = () => {
         const user = userCredential.user;
         console.log(user);
         setIsLoading(false);
-        toast.success("Registration Successful...");
+        toast.success("Registration Successful!");
         navigate("/login");
       })
       .catch((error) => {
@@ -74,7 +74,9 @@ const Register = () => {
 
             <span className={styles.register}>
               <p>Already an account?</p>
-              <Link to="/login">Login</Link>
+              <Link to="/login" className="--b">
+                Login
+              </Link>
             </span>
           </div>
         </Card>

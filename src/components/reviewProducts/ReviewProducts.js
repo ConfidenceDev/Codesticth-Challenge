@@ -5,8 +5,6 @@ import { selectUserID, selectUserName } from "../../redux/slice/authSlice";
 import Card from "../card/Card";
 import styles from "./ReviewProducts.module.scss";
 import StarsRating from "react-star-rate";
-// import { addDoc, collection, Timestamp } from "firebase/firestore";
-// import { db } from "../../firebase/config";
 import { toast } from "react-toastify";
 import useFetchDocument from "../../customHooks/useFetchDocument";
 import spinnerImg from "../../assets/spinner.jpg";
@@ -39,10 +37,7 @@ const ReviewProducts = () => {
       createdAt: Date.now(),
     };
     try {
-      //addDoc(collection(db, "reviews"), reviewConfig);
       const url = "http://localhost:3001/reviews";
-
-      // POST request options
       const options = {
         method: "POST",
         headers: {
@@ -51,7 +46,6 @@ const ReviewProducts = () => {
         body: JSON.stringify(reviewConfig),
       };
 
-      // Make the POST request using fetch()
       fetch(url, options)
         .then((response) => {
           if (!response.ok) {

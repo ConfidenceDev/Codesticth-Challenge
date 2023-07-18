@@ -1,7 +1,5 @@
-//import { collection, onSnapshot, orderBy, query } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
-//import { db } from "../firebase/config";
 import Products from "../db/Products.json";
 import Orders from "../db/Orders.json";
 import Reviews from "../db/Reviews.json";
@@ -13,15 +11,6 @@ const useFetchCollection = (collectionName) => {
   const getCollection = () => {
     setIsLoading(true);
     try {
-      /*const docRef = collection(db, collectionName);
-      const q = query(docRef, orderBy("createdAt", "desc"));
-      onSnapshot(q, (snapshot) => {
-        // console.log(snapshot.docs);
-        const allData = snapshot.docs.map((doc) => ({
-          id: doc.id,
-          ...doc.data(),
-        }));*/
-      //});
       const selectedCol =
         collectionName === "orders"
           ? Orders
