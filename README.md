@@ -2,12 +2,12 @@
 
 A web application for a fictional e-commerce platform built in reactjs
 
-<img src="https://github.com/Dev-Geek/Paddi-WebRTC-Group-VideoChat/blob/master/screenshots/icon.png" width="148" alt="icon">
+<img src="https://github.com/ConfidenceDev/Codesticth-Challenge/blob/main/public/logo.png" width="148" alt="icon">
 
 # Demo
 
 <p float="left">
-<img src="https://github.com/ConfidenceDev/Codesticth-Challenge/blob/main/src/assets/demo.png" width="148" alt="demo">
+<img src="https://github.com/ConfidenceDev/Codesticth-Challenge/blob/main/src/assets/demo.png" width="400" alt="demo">
 </p>
 
 # Contact
