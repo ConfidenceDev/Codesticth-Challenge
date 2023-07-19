@@ -7,13 +7,13 @@ A web application for a fictional e-commerce platform built in reactjs with redu
 # Demo
 
 <p float="left">
-<img src="https://github.com/ConfidenceDev/Codesticth-Challenge/blob/main/src/assets/demo.png" width="800" alt="demo">
+<img src="https://github.com/ConfidenceDev/Codesticth-Challenge/blob/main/src/assets/demo.png" width="900" alt="demo">
 </p>
 
 # How to Run
 
 1. Clone or Download project and unzip
-2. Authentication: We will utilize firebase free authentication service for our login and registration. Create a new firebase project at <a href="https://console.firebase.google.com/">https://console.firebase.google.com/</a> and copy config object, similar to:
+2. Authentication: We will utilize firebase free authentication service for our login and registration. Create a new firebase project at <a href="https://console.firebase.google.com/" target="_blank">https://console.firebase.google.com/</a> and copy config object, similar to:
 
 ```
     export const firebaseConfig = {
@@ -27,7 +27,7 @@ A web application for a fictional e-commerce platform built in reactjs with redu
 ```
 
 3. Update project firebase config with your config in the file: src/firebase/config.js
-4. Install Packages: You will need NodeJS installed on your machine to run the project, if you don't have NodeJS installed, head over to: <a href="https://nodejs.org/en/download">https://nodejs.org/en/download</a> <br />
+4. Install Packages: You will need NodeJS installed on your machine to run the project, if you don't have NodeJS installed, head over to: <a href="https://nodejs.org/en/download" target="_blank">https://nodejs.org/en/download</a> <br />
    Run this command to install all required packages
 
 ```
