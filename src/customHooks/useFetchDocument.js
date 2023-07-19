@@ -3,6 +3,7 @@ import { toast } from "react-toastify";
 import Products from "../db/Products.json";
 import Orders from "../db/Orders.json";
 
+//Fetch a single item in a collection or db
 const useFetchDocument = (collectionName, documentID) => {
   const [document, setDocument] = useState(null);
 

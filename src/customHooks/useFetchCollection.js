@@ -4,6 +4,7 @@ import Products from "../db/Products.json";
 import Orders from "../db/Orders.json";
 import Reviews from "../db/Reviews.json";
 
+//Fetch all items in a collection or db
 const useFetchCollection = (collectionName) => {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);

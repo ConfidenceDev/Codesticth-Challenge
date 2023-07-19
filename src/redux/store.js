@@ -6,6 +6,7 @@ import cartReducer from "./slice/cartSlice";
 import checkoutReducer from "./slice/checkoutSlice";
 import orderReducer from "./slice/orderSlice";
 
+//Combining all redux slices to manage states
 const rootReducer = combineReducers({
   auth: authReducer,
   product: productReducer,

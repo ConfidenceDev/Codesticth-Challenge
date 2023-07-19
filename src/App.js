@@ -1,19 +1,25 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-// Pages
-import { Home, Contact, Login, Register, Reset } from "./pages";
 // Components
-import { Header, Footer } from "./components";
+import {
+  Header,
+  Footer,
+  Home,
+  Contact,
+  Login,
+  Register,
+  Reset,
+} from "./components";
 import ProductDetails from "./components/product/productDetails/ProductDetails";
-import Cart from "./pages/cart/Cart";
-import CheckoutDetails from "./pages/checkout/CheckoutDetails";
-import Checkout from "./pages/checkout/Checkout";
-import CheckoutSuccess from "./pages/checkout/CheckoutSuccess";
-import OrderHistory from "./pages/orderHistory/OrderHistory";
-import OrderDetails from "./pages/orderDetails/OrderDetails";
+import Cart from "./components/cart/Cart";
+import CheckoutDetails from "./components/checkout/CheckoutDetails";
+import Checkout from "./components/checkout/Checkout";
+import CheckoutSuccess from "./components/checkout/CheckoutSuccess";
+import OrderHistory from "./components/orderHistory/OrderHistory";
+import OrderDetails from "./components/orderDetails/OrderDetails";
 import ReviewProducts from "./components/reviewProducts/ReviewProducts";
-import NotFound from "./pages/notFound/NotFound";
+import NotFound from "./components/notFound/NotFound";
 
 function App() {
   return (

@@ -37,6 +37,7 @@ const ReviewProducts = () => {
       createdAt: Date.now(),
     };
     try {
+      //Sending review to db
       const url = "http://localhost:3001/reviews";
       const options = {
         method: "POST",

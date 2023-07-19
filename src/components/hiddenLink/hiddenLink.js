@@ -1,6 +1,7 @@
 import { useSelector } from "react-redux";
 import { selectIsLoggedIn } from "../../redux/slice/authSlice";
 
+//Manages menu items - when user is loggedin or otherwise
 const ShowOnLogin = ({ children }) => {
   const isLoggedIn = useSelector(selectIsLoggedIn);
 

@@ -36,18 +36,6 @@ const filterSlice = createSlice({
           return b.price - a.price;
         });
       }
-
-      if (sort === "a-z") {
-        tempProducts = products.slice().sort((a, b) => {
-          return a.name.localeCompare(b.name);
-        });
-      }
-      if (sort === "z-a") {
-        tempProducts = products.slice().sort((a, b) => {
-          return b.name.localeCompare(a.name);
-        });
-      }
-
       state.filteredProducts = tempProducts;
     },
     FILTER_BY_CATEGORY(state, action) {
