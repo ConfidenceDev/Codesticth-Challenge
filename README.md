@@ -26,6 +26,8 @@ A web application for a fictional e-commerce platform built in reactjs with redu
     };
 ```
 
+- Enable Email and Password Authentication: Open the just created project from the Firebase console -> Select Authentication -> Sign-In-Method tab -> Add new provider -> Select Email/Password and Enable.
+
 3. Update project firebase config with your config in the file: src/firebase/config.js
 4. Install Packages: You will need NodeJS installed on your machine to run the project, if you don't have NodeJS installed, head over to: <a href="https://nodejs.org/en/download" target="_blank">https://nodejs.org/en/download</a> <br />
    Run this command to install all required packages
