@@ -27,18 +27,24 @@ A web application for a fictional e-commerce platform built in reactjs with redu
 ```
 
 3. Update project firebase config with your config in the file: src/firebase/config.js
-4. Run Backend: No database is currently implemented therefore, all data is stored in json files in the <b>db</b> folder: src/db <br />
+4. Install Modules:
+
+   ```
+   npm install
+   ```
+
+5. Run Backend: No database is currently implemented therefore, all data is stored in json files in the <b>db</b> folder: src/db <br />
    The backend sever simply stores data to the json files, when placing orders and writing reviews.
 
-```
-    npm run backend
-```
+   ```
+   npm run backend
+   ```
 
-5. Run Frontend: To run application use
+6. Run Frontend: To run application use
 
-```
-    npm run frontend
-```
+   ```
+   npm run frontend
+   ```
 
 # Contact
 
