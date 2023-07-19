@@ -27,7 +27,7 @@ A web application for a fictional e-commerce platform built in reactjs with redu
 ```
 
 3. Update project firebase config with your config in the file: src/firebase/config.js
-4. Install Modules:
+4. Install Modules: You will need NodeJS installed on your machine to run the project, if you don't have NodeJS installed, head over to: <a href="https://nodejs.org/en/download">https://nodejs.org/en/download</a>
 
    ```
    npm install
